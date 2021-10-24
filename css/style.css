@@ -32,7 +32,7 @@ body {
 
 .logo {
   max-height: 120px;
-  padding: 0.5em 0em 0.5em 0em;
+  padding: 1em 0em 0.5em 1em;
 }
 
 /* ======
@@ -67,7 +67,7 @@ Header Navigation
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 0em 2em;
+  padding: 0em 1em;
 }
 
 .nav-content {
