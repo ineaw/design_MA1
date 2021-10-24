@@ -145,12 +145,11 @@ Header Navigation
   position: absolute;
   background-color: var(--marble-white);
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
-  box-shadow: 5px 5px var(--main);
   z-index: 1;
 }
 
 .dropdown-content a {
-  padding: 0.2em 2em;
+  padding: 0.5em 2em;
   display: block;
   font-size: 1rem;
 }
@@ -191,6 +190,9 @@ Articles
 
 .container {
   padding: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container.even {
@@ -258,7 +260,6 @@ footer {
 .footer {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
 }
 
 .social-link,
@@ -266,7 +267,6 @@ footer {
 .social-link a,
 .copyright {
   color: var(--marble-white);
-  /* font-family: "raleway", sans-serif; */
 }
 
 .footer-link a:hover,
