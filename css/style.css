@@ -88,7 +88,7 @@ Header Navigation
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 2em;
+  margin-top: 6em;
   padding: 0.5em;
   height: 50%;
 }
@@ -150,7 +150,7 @@ Header Navigation
 }
 
 .dropdown-content a {
-  padding: 0.2em 0.5em;
+  padding: 0.2em 2em;
   display: block;
   font-size: 1rem;
 }
@@ -257,9 +257,8 @@ footer {
 
 .footer {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: top;
+  flex-direction: column;
+  /* align-items: center; */
 }
 
 .social-link,
@@ -267,7 +266,7 @@ footer {
 .social-link a,
 .copyright {
   color: var(--marble-white);
-  font-family: "raleway", sans-serif;
+  /* font-family: "raleway", sans-serif; */
 }
 
 .footer-link a:hover,
@@ -277,6 +276,7 @@ footer {
 
 .copyright {
   text-align: center;
+  font-size: 0.7rem;
   padding: 1em;
 }
 
@@ -326,5 +326,12 @@ Media Quieries
   .deco-image img {
     width: 100%;
     height: auto;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: top;
   }
 }
