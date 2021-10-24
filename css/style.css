@@ -10,10 +10,8 @@
 
 :root {
   --accent: #9d6f64;
-  --accent-vibrant: #b2a05c;
-  --main-dark: #162a32;
-  --main-tint: #284650;
-  --main: #1e4541;
+  --main: #2e4449;
+  --main-dark: #1f2e31;
   --marble-white: #f5f7f7;
   --marble-white-shade: #e6eded;
 }
@@ -25,6 +23,8 @@ body {
   font-family: "playfair display", serif;
   line-height: 1.5;
 }
+
+/* Texture Rocky Wall, Made by Projecteightyfive */
 
 .body-container {
   background-image: url(../images/rockywall.png);
