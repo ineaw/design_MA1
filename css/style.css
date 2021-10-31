@@ -252,6 +252,7 @@ Articles
   padding: 2em;
   max-width: 100%;
   justify-content: center;
+  cursor: pointer;
 }
 
 .gallery-image {
