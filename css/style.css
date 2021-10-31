@@ -410,7 +410,8 @@ Media Quieries
   }
 
   .deco-image {
-    max-width: 500px;
+    max-width: 900px;
+    padding-left: 2em;
   }
 
   .deco-image img {
