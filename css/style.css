@@ -386,8 +386,8 @@ footer {
   align-items: center;
 }
 
-.footer-social,
-.footer-main {
+.footer-social ul,
+.footer-main ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
