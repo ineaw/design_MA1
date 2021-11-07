@@ -222,7 +222,7 @@ Buttons
   cursor: pointer;
   transition: 300ms ease-in-out;
   margin: 2em 3em 2em 2em;
-  width: 120px;
+  width: 150px;
 }
 
 .cta:hover {
@@ -395,7 +395,7 @@ footer {
 
 .footer-link,
 .social-link {
-  margin: 0.5em;
+  margin-right: 1em;
 }
 
 .footer-link {
