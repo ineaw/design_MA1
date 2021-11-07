@@ -375,7 +375,6 @@ Footer
 ====== */
 
 footer {
-  /* background-color: var(--clr-main); */
   display: flex;
   flex-direction: column;
   padding: 2rem;
@@ -463,10 +462,6 @@ Media Quieries
     max-width: 400px;
   }
 
-  /* .container {
-    padding: 4em 2em;
-  } */
-
   .container.odd,
   .container.even {
     padding: 0em 2em 2em 2em;
@@ -482,7 +477,6 @@ Media Quieries
   .product-gallery {
     display: flex;
     flex-direction: row;
-    /* padding: 2em; */
   }
 
   .section-container,
