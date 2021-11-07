@@ -53,9 +53,6 @@ h1 {
   color: var(--clr-accent);
   margin: 3rem 2rem;
   letter-spacing: 0.03em;
-  /* text-shadow: 0px 1px 1px #9d6f64; */
-  /* font-weight: 900;
-  font-style: normal; */
 }
 
 h2 {
@@ -277,6 +274,10 @@ Articles
   flex-direction: column-reverse;
 }
 
+.hero-header {
+  margin-top: 2em;
+}
+
 .ad-gallery {
   display: flex;
   flex-direction: column;
@@ -305,7 +306,7 @@ Articles
   flex-direction: column;
   justify-content: center;
   max-width: 100%;
-  padding: 1em;
+  padding: 2em;
 }
 
 .product-gallery img {
@@ -331,7 +332,7 @@ Articles
 
 .deco-image {
   max-width: 100%;
-  padding: 2em 0em;
+  padding: 0em;
 }
 
 .deco-image img {
@@ -496,7 +497,7 @@ Media Quieries
 
   .deco-image {
     max-width: 900px;
-    padding-left: 2em;
+    padding: 4em 2em;
   }
 
   .deco-image img {
