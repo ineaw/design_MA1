@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,800;1,400;1,500&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.typekit.net/jhy6cad.css" />
     <link rel="icon" href="data:;base64,=" />
   </head>
   <body>
@@ -22,30 +23,30 @@
             <nav class="nav-content">
               <button aria-label="close navigation" class="close-nav">×</button>
               <ul class="nav-links">
-                <a href="index.html" class="main nav-link">Home</a>
+                <li class="nav-link"><a href="index.html">Home</a></li>
                 <li class="dropdown">
-                  <a href="products.html" class="main nav-link" id="dropbtn">Shop +</a>
-                  <div class="dropdown-content">
-                    <a href="#" class="sub nav-link">Armchairs</a>
-                    <a href="#" class="sub nav-link">Lounge chairs</a>
-                    <a href="#" class="sub nav-link">Sofas</a>
-                    <a href="#" class="sub nav-link">Tables</a>
-                    <a href="#" class="sub nav-link">Bathroom</a>
-                    <a href="#" class="sub nav-link">Lighting</a>
-                  </div>
+                  <a href="products.html" class="nav-link" id="dropbtn">Shop +</a>
+                  <ul class="dropdown-content">
+                    <li class="drop-link"><a href="#">Armchairs</a></li>
+                    <li class="drop-link"><a href="#">Lounge chairs</a></li>
+                    <li class="drop-link"><a href="#">Sofas</a></li>
+                    <li class="drop-link"><a href="#">Tables</a></li>
+                    <li class="drop-link"><a href="#">Bathroom</a></li>
+                    <li><a href="#">Lighting</a></li>
+                  </ul>
                 </li>
                 <li class="dropdown">
-                  <a href="#" class="main nav-link" id="dropbtn">Projects +</a>
-                  <div class="dropdown-content">
-                    <a href="#" class="nav-link">Interior design</a>
-                    <a href="#" class="nav-link">Interior styling</a>
-                    <a href="#" class="nav-link">Our designers</a>
-                    <a href="#" class="nav-link">Deco Professional</a>
-                  </div>
+                  <a href="#" class="nav-link" id="dropbtn">Projects +</a>
+                  <ul class="dropdown-content">
+                    <li><a href="#" class="drop-link">Interior design</a></li>
+                    <li><a href="#" class="drop-link">Interior styling</a></li>
+                    <li><a href="#" class="drop-link">Our designers</a></li>
+                    <li><a href="#" class="drop-link">Deco Professional</a></li>
+                  </ul>
                 </li>
-                <li><a href="#.html" class="main nav-link" aria-label="Contact me">About</a></li>
-                <li><a href="#.html" class="main nav-link" aria-label="Contact me">Contact</a></li>
-                <li>
+                <li class="nav-link"><a href="#.html" aria-label="About me">About</a></li>
+                <li class="nav-link"><a href="#.html" aria-label="Contact me">Contact</a></li>
+                <li class="nav-link">
                   <a href="#.html"><img class="shopping-bag" src="images/shopping-icon.png" alt="" /></a>
                 </li>
               </ul>
@@ -55,37 +56,38 @@
       </header>
       <main>
         <section class="container odd">
-          <div class="section-container">
+          <div class="header-container">
             <div class="hero-header">
-              <h1>Sustainable, luxury interior & design</h1>
-              <button class="cta">See More</button>
+              <h1>Sustainable, luxury interior <span class="italic-span">&</span> design</h1>
+              <h2>Made to last.</h2>
             </div>
+            <!-- <button class="dark-btn cta">See More</button> -->
             <div class="deco-image">
-              <img class="deco" src="images/bath.jpg" alt="Bathtub" />
+              <a href="#"> <img class="deco" src="images/bath.jpg" alt="Bathtub" /> </a>
             </div>
           </div>
         </section>
         <section class="container even">
           <div class="section-container">
-            <figure class="deco-image">
+            <div class="deco-image">
               <img src="images/bedroom.jpg" alt="Bedroom" />
-            </figure>
+            </div>
             <div class="hero-header">
-              <h2>A change to something better</h2>
+              <h2>A change to something better.</h2>
               <p class="article-short">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium?</p>
-              <button class="cta">See More</button>
+              <button class="light-btn cta">See More</button>
             </div>
           </div>
         </section>
         <section class="container odd">
           <div class="section-container">
-            <figure class="deco-image">
+            <div class="deco-image">
               <img src="images/dinnertable.jpg" alt="Diningtable with chairs" />
-            </figure>
+            </div>
             <div class="hero-header">
-              <h2>Natural materials</h2>
+              <h2>Natural materials.</h2>
               <p class="article-short">Sed ut perspiciatis unde omnis iste natus error sit voluptatem laudantium.</p>
-              <button class="cta">See More</button>
+              <button class="dark-btn cta">See More</button>
             </div>
           </div>
         </section>
@@ -99,31 +101,32 @@
             </figure>
           </div>
         </section>
-        <section class="container odd">
+        <!-- <section class="container odd">
           <div class="article">
             <h2>Made to last</h2>
             <p class="article-long">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
             <p class="article-long" t>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
             <p>-- Deca Decoria</p>
           </div>
-        </section>
+        </section> -->
       </main>
       <footer>
         <section class="footer">
           <ul class="footer-main">
             <li class="footer-link"><a href="#">About</a></li>
             <li class="footer-link"><a href="#">Contact</a></li>
-            <li class="footer-link"><a href="#">Disclosure</a></li>
             <li class="footer-link"><a href="#">Privacy Policy</a></li>
           </ul>
           <ul class="footer-social">
-            <li class="social-link"><a href="#">Facebook</a></li>
-            <li class="social-link"><a href="#">Pinterest</a></li>
-            <li class="social-link"><a href="#">Instagram</a></li>
-          </ul>
-          <ul class="footer-address">
-            <li class="social-link">Avenue 1, the lane</li>
-            <li class="social-link">+111 222 333</li>
+            <li class="social-link">
+              <a href="#"><i class="fab fa-facebook-square"></i></a>
+            </li>
+            <li class="social-link">
+              <a href="#"><i class="fab fa-pinterest"></i></a>
+            </li>
+            <li class="social-link">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
           </ul>
         </section>
         <p class="copyright">© Copyright 2021. All rights reserved. Website by Ine AW.</p>
